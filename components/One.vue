@@ -3,7 +3,7 @@
     <div class="container px-5 py-8 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <img
-          alt="ecommerce"
+          alt="cybersecurity"
           class="md:w-1/2 w-full md:h-full"
           src="/cybersecurity.webp"
           loading="lazy"
@@ -27,22 +27,29 @@
               href="https://www.bitdefender.com/"
               target="_blank"
               class="border border-gray-300 rounded p-2 m-1"
-              ><img src="/endpoint.webp" />
-              <p class="text-center">Endpoint Security</p></a
-            ><a
+            >
+              <img src="/endpoint.webp" alt="Endpoint" />
+              <p class="text-center">Endpoint Security</p>
+            </a>
+            <a
               href="https://www.titanhq.com/"
               target="_blank"
               class="border border-gray-300 rounded p-2 m-1"
-              ><img src="/email.webp" />
-              <p class="text-center">Email Security</p></a
-            ><a
+            >
+              <img src="/email.webp" alt="Email Security" />
+              <p class="text-center">Email Security</p>
+            </a>
+            <a
               href="https://www.acronis.com/en-us/"
               target="_blank"
               class="border border-gray-300 rounded p-2 m-1"
-              ><img src="/backup.webp" />
-              <p class="text-center">Backup &amp; Storage</p></a
-            ><a href="/contact" class="border border-gray-300 rounded p-2 m-1"
-              ><img src="/awarness.webp" />
+              > <img src="/backup.webp" alt="Backup &amp; Storage"/>
+              <p class="text-center">Backup &amp; Storage</p> 
+              </a
+            >
+            <a href="/contact" class="border border-gray-300 rounded p-2 m-1"
+              >
+              <img src="/awarness.webp" alt="Cyber Security Awareness"/>
               <p class="text-center">Cyber Security Awareness</p></a
             >
           </div>

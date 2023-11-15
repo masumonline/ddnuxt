@@ -1,8 +1,13 @@
 <script setup>
 import { ref } from "vue";
 const isOpen = ref(false);
+const isSubOpen = ref(false);
 const drawer = function () {
   isOpen.value = !isOpen.value;
+};
+
+const subdwawer = function () {
+  isSubOpen.value = !isSubOpen.value;
 };
 </script>
 <template>
@@ -259,6 +264,8 @@ const drawer = function () {
       >
         <div class="close">
           <button
+            id="nav"
+            aria-label="Nav"
             class="absolute top-0 right-0 mt-4 mr-4"
             @click="isOpen = false"
           >
@@ -285,10 +292,9 @@ const drawer = function () {
 
         <ul class="divide-y font-sans">
           <li class="group relative">
-            <a href="#" @click="isOpen = false" class="my-4 inline-block">
-              Solutions & Services
-            </a>
+            <a @click="subdwawer" class="my-4 inline-block"> Solutions & Services </a>
             <ul
+            v-if="isSubOpen"
               class="hidden group-hover:block absolute w-[200px] bg-white overflow-y text-sm"
             >
               <li class="border-b border-amber-600 py-2 px-1">
@@ -393,10 +399,11 @@ const drawer = function () {
             </ul>
           </li>
           <li class="group">
-            <a href="#" @click="isOpen = false" class="my-4 inline-block">
-              Partnerships
-            </a>
-            <ul class="hidden group-hover:block absolute w-[200px] bg-white text-sm">
+            <a @click="subdwawer" class="my-4 inline-block"> Partnerships </a>
+            <ul
+            v-if="isSubOpen"
+              class="hidden group-hover:block absolute w-[200px] bg-white text-sm"
+            >
               <li class="border-b border-amber-600 py-2 px-1">
                 <a href="https://www.bitdefender.com/" target="_blank"
                   >Bitdefender</a

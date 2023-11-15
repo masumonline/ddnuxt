@@ -28,7 +28,7 @@
           </p>
         </div>
         <img
-          alt="ecommerce"
+          alt="About Us"
           class="md:w-1/2 w-full md:h-full"
           src="/about2.webp"
           loading="lazy"

@@ -12,7 +12,7 @@
             Pioneering and trendsetting with leadership roles in the local
             information security industry.
           </p>
-          <img src="/solutions.webp" />
+          <img src="/solutions.webp" alt="solutions"/>
         </div>
       </div>
       <div class="md:grid-cols-1">

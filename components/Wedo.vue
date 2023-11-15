@@ -5,13 +5,14 @@
       <div
         class="grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 lg:grid-cols-6 lg:gap-x-6"
       >
-        <a href="" class="col-span-2 self-center"
-          ><h2
+        <div class="col-span-2 self-center">
+          <h2
             class="text-2xl font-bold text-gray-800 md:text-6xl font-mono py-8"
           >
             What We Do
-          </h2></a
-        ><a href="https://www.bitdefender.com/" target="_blank"
+          </h2>
+        </div>
+        <a href="https://www.bitdefender.com/" target="_blank"
           ><div
             class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7"
           >
@@ -47,7 +48,7 @@
           >
             <img
               src="/edr.webp"
-              alt="EDR Solutions"
+              alt="XRD Solutions"
               class="h-full w-full md:w-[75%] mx-auto object-cover object-center"
               loading="lazy"
             />
